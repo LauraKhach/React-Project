@@ -8,8 +8,6 @@ export default function FakeUser() {
     const [ user, setUser ] = useState([]);
     const { id } = useParams();
 
-    console.log(3);
-    
     useEffect(() => {
         getUser();
     }, [])
